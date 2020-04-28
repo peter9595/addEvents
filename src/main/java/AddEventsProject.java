@@ -140,7 +140,9 @@ public class AddEventsProject {
             System.out.printf("Event created: %s\n", event.getHtmlLink());
 
         }
-
+        
+        System.out.println("Твои даты повторений включая дату заучивания:");
+        System.out.println(dateOfFirstLearning);
         for (int i = 0; i < repetiionDayList.size();i++)
         {
             System.out.println(repetiionDayList.get(i));
